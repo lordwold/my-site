@@ -9,10 +9,10 @@ type AppInfo = {
 const apps: AppInfo[] = [
   {
     id: 1,
-    title: "برنامه یادداشت‌بردار من",
-    desc: "ابزاری ساده برای یادداشت‌برداری سریع و مدیریت کارهای روزانه.",
-    version: "1.2.0",
-    downloadUrl: "https://example.com/files/noteapp.zip",
+    title: "برنامه مدیریت وام ",
+    desc: "ابزاری ساده برای مدیریت وام ها .",
+    version: "1.0.0",
+    downloadUrl: "https://github.com/lordwold/my-site/releases/download/v1.0.0/loan.py",
   },
   {
     id: 2,
