@@ -1,12 +1,5 @@
-type AppInfo = {
-  id: number;
-  title: string;
-  desc: string;
-  version: string;
-  downloadUrl: string;
-};
 
-const apps: AppInfo[] = [
+const apps = [
   {
     id: 1,
     title: "برنامه مدیریت وام ",
@@ -32,7 +25,7 @@ const apps: AppInfo[] = [
 
 export default function DownloadsPage() {
   return (
-    <main className="min-h-screen bg-gray-50 p-6">
+    <section className="p-6 bg-gray-50 flex-grow">
       <h1 className="text-3xl font-bold text-center mb-10">📦 دانلود برنامه‌ها</h1>
 
       <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6">
@@ -60,6 +53,6 @@ export default function DownloadsPage() {
           </div>
         ))}
       </div>
-    </main>
+    </section>
   );
 }
