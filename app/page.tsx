@@ -2,8 +2,7 @@
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col">
-      
-
+     
       {/* Hero Section */}
       <section className="flex flex-col items-center justify-center flex-grow text-center p-10 bg-gradient-to-b from-gray-100 to-gray-200">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-gray-800">
@@ -17,7 +16,7 @@ export default function Home() {
         </a>
       </section>
 
-     
+      
     </main>
   );
 }
